@@ -386,12 +386,25 @@ header .banner {
     text-align: center;
     padding-bottom: 4rem; }
 
-.technologies {
-  background-color: darkgrey; }
-  .technologies h2 {
+.offert {
+  background-color: #f0f0f0; }
+  .offert h2 {
     padding-top: 4rem;
     font-size: 2rem;
     text-align: center; }
+  .offert .offert-list {
+    display: flex;
+    align-items: center;
+    flex-direction: column; }
+    .offert .offert-list div {
+      text-align: center;
+      background-color: white;
+      margin: 1rem 0;
+      width: 50rem;
+      border-radius: 1rem; }
+      .offert .offert-list div h3 {
+        text-transform: uppercase;
+        line-height: 2rem; }
 
 body {
   font-family: "Roboto", sans-serif;
